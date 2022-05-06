@@ -19,11 +19,15 @@
                 {% endif %}
                 <td>
                     <a href="/toggle/{{ item.id }}">
-                        <button type="submit">Toggle</button></a>
+                        <button>Toggle</button></a>
                 </td>
                 <td>
                     <a href="/edit/{{ item.id }}">
-                        <button type="submit">Edit</button></a>
+                        <button>Edit</button></a>
+                </td>
+                <td>
+                    <a href="/delete/{{ item.id }}">
+                        <button>Delete</button></a>
                 </td>
             </tr>
         {% empty %}
