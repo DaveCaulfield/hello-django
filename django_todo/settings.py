@@ -27,7 +27,10 @@ SECRET_KEY = 'g&7h#bi#ps4yxgs&q0yn$9&h657dz8c%&s!5%%4&edis(q4o#e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [ 
+    'hello-django-dc-todo.herokuapp.com',
+    'localhost'
+]
 
 
 # Application definition
